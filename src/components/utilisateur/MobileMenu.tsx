@@ -1,25 +1,23 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import { usePathname } from "next/navigation";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-export default function Navbar() {
-  const [open, setOpen] = useState(false);
-  const pathname = usePathname(); // pour savoir quel lien est actif
+type NavLink = {
+  href: string;
+  label: string;
+};
 
-  const links = [
-    { href: "/", label: "Accueil" },
-    { href: "/services", label: "Services" },
-    { href: "/ministère", label: "Ministère" },
-    { href: "/services aux usagers", label: "Services aux usagers" },
-    { href: "/presse", label: "Presse" },
-    { href: "/actualités", label: "Actualités" },
-    { href: "/contact", label: "Contact" },
-  ];
+type MobileMenuProps = {
+  links: NavLink[];
+  onClose: () => void;
+};
+
+export default function MobileMenu({ links, onClose }: MobileMenuProps) {
+  const pathname = usePathname();
 
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div>
       <h1>
@@ -88,6 +86,25 @@ export default function Navbar() {
         </nav>
       )}
     </header>
+=======
+    <nav className="bg-[#28a745] rounded-lg shadow-lg divide-y divide-white/10">
+      <ul>
+        {links.map(({ href, label }) => (
+          <li key={href}>
+            <Link
+              href={href}
+              onClick={onClose}
+              className={`block px-4 py-3 hover:underline transition ${
+                pathname === href ? 'underline text-yellow-200' : ''
+              }`}
+            >
+              {label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+>>>>>>> fcbb749 (Navebaré)
   );
 >>>>>>> eb0499e (menu burger)
 }
