@@ -5,7 +5,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
 >>>>>>> 876a674 (footer)
 import "./globals.css";
+<<<<<<< HEAD
 import Navbar from "@/components/utilisateur/Navbar";
+=======
+import MobileMenu from "@/components/utilisateur/MobileMenu"
+>>>>>>> bebac7d (menu burger)
 
 
 export const metadata: Metadata = {
@@ -31,8 +35,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+<<<<<<< HEAD
 
       >
+=======
+      > <MobileMenu />
+>>>>>>> eb0499e (menu burger)
         {children}
         <Footer />
         </body>
