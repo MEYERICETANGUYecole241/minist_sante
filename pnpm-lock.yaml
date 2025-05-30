@@ -20,10 +20,14 @@ importers:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 721dcf3 (menu burger)
       framer-motion:
         specifier: ^12.15.0
         version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 =======
+<<<<<<< HEAD
 >>>>>>> bebac7d (menu burger)
 =======
       framer-motion:
@@ -35,6 +39,9 @@ importers:
         specifier: ^12.15.0
         version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 >>>>>>> a0e9dea (compaings)
+=======
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       lucide-react:
         specifier: ^0.511.0
         version: 0.511.0(react@19.1.0)
@@ -60,6 +67,7 @@ importers:
       '@types/node':
         specifier: ^20
 <<<<<<< HEAD
+<<<<<<< HEAD
         version: 20.17.56
       '@types/react':
         specifier: ^19
@@ -74,6 +82,8 @@ importers:
         specifier: 15.3.3
         version: 15.3.3(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
         version: 20.17.57
       '@types/react':
         specifier: ^19.1.6
@@ -87,7 +97,25 @@ importers:
       eslint-config-next:
         specifier: 15.3.3
         version: 15.3.3(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+        version: 20.17.56
+      '@types/react':
+        specifier: ^19
+        version: 19.1.6
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.1.5(@types/react@19.1.6)
+      eslint:
+        specifier: ^9
+        version: 9.27.0(jiti@2.4.2)
+      eslint-config-next:
+        specifier: 15.3.3
+        version: 15.3.3(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       tailwindcss:
         specifier: ^4
         version: 4.1.8
@@ -144,12 +172,21 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@eslint/js@9.27.0':
     resolution: {integrity: sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==}
 =======
   '@eslint/js@9.28.0':
     resolution: {integrity: sha512-fnqSjGWd/CoIp4EXIxWVK/sHA6DOHN4+8Ix2cX5ycOY7LG0UY8nHCU5pIp2eaE1Mc7Qd8kHspYNzYXT2ojPLzg==}
 >>>>>>> a0e9dea (compaings)
+=======
+  '@eslint/js@9.28.0':
+    resolution: {integrity: sha512-fnqSjGWd/CoIp4EXIxWVK/sHA6DOHN4+8Ix2cX5ycOY7LG0UY8nHCU5pIp2eaE1Mc7Qd8kHspYNzYXT2ojPLzg==}
+=======
+  '@eslint/js@9.27.0':
+    resolution: {integrity: sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.6':
@@ -522,12 +559,21 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@types/node@20.17.56':
     resolution: {integrity: sha512-HQk2cDZsA+HYGyqCfWbScO+OUI9RKEZr/sqiASBFpeYoN4Ro3PyaApDG5ipcLY//PvQPhK/a3VsFq2NrQ+Zz1A==}
 =======
   '@types/node@20.17.57':
     resolution: {integrity: sha512-f3T4y6VU4fVQDKVqJV4Uppy8c1p/sVvS3peyqxyWnzkqXFJLRU7Y1Bl7rMS1Qe9z0v4M6McY0Fp9yBsgHJUsWQ==}
 >>>>>>> a0e9dea (compaings)
+=======
+  '@types/node@20.17.57':
+    resolution: {integrity: sha512-f3T4y6VU4fVQDKVqJV4Uppy8c1p/sVvS3peyqxyWnzkqXFJLRU7Y1Bl7rMS1Qe9z0v4M6McY0Fp9yBsgHJUsWQ==}
+=======
+  '@types/node@20.17.56':
+    resolution: {integrity: sha512-HQk2cDZsA+HYGyqCfWbScO+OUI9RKEZr/sqiASBFpeYoN4Ro3PyaApDG5ipcLY//PvQPhK/a3VsFq2NrQ+Zz1A==}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
 
   '@types/react-dom@19.1.5':
     resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
@@ -1017,12 +1063,21 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint@9.27.0:
     resolution: {integrity: sha512-ixRawFQuMB9DZ7fjU3iGGganFDp3+45bPOdaRurcFHSXO1e/sYwUX/FtQZpLZJR6SjMoJH8hR2pPEAfDyCoU2Q==}
 =======
   eslint@9.28.0:
     resolution: {integrity: sha512-ocgh41VhRlf9+fVpe7QKzwLj9c92fDiqOj8Y3Sd4/ZmVA4Btx4PlUYPq4pp9JDyupkf1upbEXecxL2mwNV7jPQ==}
 >>>>>>> a0e9dea (compaings)
+=======
+  eslint@9.28.0:
+    resolution: {integrity: sha512-ocgh41VhRlf9+fVpe7QKzwLj9c92fDiqOj8Y3Sd4/ZmVA4Btx4PlUYPq4pp9JDyupkf1upbEXecxL2mwNV7jPQ==}
+=======
+  eslint@9.27.0:
+    resolution: {integrity: sha512-ixRawFQuMB9DZ7fjU3iGGganFDp3+45bPOdaRurcFHSXO1e/sYwUX/FtQZpLZJR6SjMoJH8hR2pPEAfDyCoU2Q==}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     hasBin: true
     peerDependencies:
@@ -1105,10 +1160,13 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+>>>>>>> 721dcf3 (menu burger)
   framer-motion@12.15.0:
     resolution: {integrity: sha512-XKg/LnKExdLGugZrDILV7jZjI599785lDIJZLxMiiIFidCsy0a4R2ZEf+Izm67zyOuJgQYTHOmodi7igQsw3vg==}
     peerDependencies:
@@ -1125,12 +1183,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bebac7d (menu burger)
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -1214,12 +1277,21 @@ packages:
     engines: {node: '>= 4'}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ignore@7.0.4:
     resolution: {integrity: sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==}
 =======
   ignore@7.0.5:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
 >>>>>>> a0e9dea (compaings)
+=======
+  ignore@7.0.5:
+    resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
+=======
+  ignore@7.0.4:
+    resolution: {integrity: sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     engines: {node: '>= 4'}
 
   import-fresh@3.3.1:
@@ -1513,10 +1585,13 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+>>>>>>> 721dcf3 (menu burger)
   motion-dom@12.15.0:
     resolution: {integrity: sha512-D2ldJgor+2vdcrDtKJw48k3OddXiZN1dDLLWrS8kiHzQdYVruh0IoTwbJBslrnTXIPgFED7PBN2Zbwl7rNqnhA==}
 
@@ -1525,12 +1600,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bebac7d (menu burger)
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
@@ -1979,6 +2059,7 @@ snapshots:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@eslint-community/eslint-utils@4.7.0(eslint@9.27.0(jiti@2.4.2))':
     dependencies:
       eslint: 9.27.0(jiti@2.4.2)
@@ -1987,6 +2068,16 @@ snapshots:
     dependencies:
       eslint: 9.28.0(jiti@2.4.2)
 >>>>>>> a0e9dea (compaings)
+=======
+  '@eslint-community/eslint-utils@4.7.0(eslint@9.28.0(jiti@2.4.2))':
+    dependencies:
+      eslint: 9.28.0(jiti@2.4.2)
+=======
+  '@eslint-community/eslint-utils@4.7.0(eslint@9.27.0(jiti@2.4.2))':
+    dependencies:
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.1': {}
@@ -2020,10 +2111,17 @@ snapshots:
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@eslint/js@9.27.0': {}
 =======
   '@eslint/js@9.28.0': {}
 >>>>>>> a0e9dea (compaings)
+=======
+  '@eslint/js@9.28.0': {}
+=======
+  '@eslint/js@9.27.0': {}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
 
   '@eslint/object-schema@2.1.6': {}
 
@@ -2305,10 +2403,17 @@ snapshots:
   '@types/json5@0.0.29': {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@types/node@20.17.56':
 =======
   '@types/node@20.17.57':
 >>>>>>> a0e9dea (compaings)
+=======
+  '@types/node@20.17.57':
+=======
+  '@types/node@20.17.56':
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     dependencies:
       undici-types: 6.19.8
 
@@ -2320,6 +2425,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   '@typescript-eslint/eslint-plugin@8.33.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
@@ -2333,6 +2439,8 @@ snapshots:
       graphemer: 1.4.0
       ignore: 7.0.4
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   '@typescript-eslint/eslint-plugin@8.33.0(@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.1
@@ -2344,7 +2452,23 @@ snapshots:
       eslint: 9.28.0(jiti@2.4.2)
       graphemer: 1.4.0
       ignore: 7.0.5
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  '@typescript-eslint/eslint-plugin@8.33.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+    dependencies:
+      '@eslint-community/regexpp': 4.12.1
+      '@typescript-eslint/parser': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/scope-manager': 8.33.0
+      '@typescript-eslint/type-utils': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/visitor-keys': 8.33.0
+      eslint: 9.27.0(jiti@2.4.2)
+      graphemer: 1.4.0
+      ignore: 7.0.4
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       natural-compare: 1.4.0
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
@@ -2352,10 +2476,17 @@ snapshots:
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
 =======
   '@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)':
 >>>>>>> a0e9dea (compaings)
+=======
+  '@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)':
+=======
+  '@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     dependencies:
       '@typescript-eslint/scope-manager': 8.33.0
       '@typescript-eslint/types': 8.33.0
@@ -2363,10 +2494,17 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.33.0
       debug: 4.4.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       eslint: 9.27.0(jiti@2.4.2)
 =======
       eslint: 9.28.0(jiti@2.4.2)
 >>>>>>> a0e9dea (compaings)
+=======
+      eslint: 9.28.0(jiti@2.4.2)
+=======
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -2390,6 +2528,7 @@ snapshots:
       typescript: 5.8.3
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@typescript-eslint/type-utils@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
@@ -2397,13 +2536,26 @@ snapshots:
       debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   '@typescript-eslint/type-utils@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
       '@typescript-eslint/utils': 8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)
       debug: 4.4.1
       eslint: 9.28.0(jiti@2.4.2)
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  '@typescript-eslint/type-utils@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+    dependencies:
+      '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      debug: 4.4.1
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -2428,6 +2580,7 @@ snapshots:
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@typescript-eslint/utils@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0(jiti@2.4.2))
@@ -2436,6 +2589,8 @@ snapshots:
       '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
       eslint: 9.27.0(jiti@2.4.2)
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   '@typescript-eslint/utils@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0(jiti@2.4.2))
@@ -2443,7 +2598,19 @@ snapshots:
       '@typescript-eslint/types': 8.33.0
       '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
       eslint: 9.28.0(jiti@2.4.2)
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  '@typescript-eslint/utils@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+    dependencies:
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0(jiti@2.4.2))
+      '@typescript-eslint/scope-manager': 8.33.0
+      '@typescript-eslint/types': 8.33.0
+      '@typescript-eslint/typescript-estree': 8.33.0(typescript@5.8.3)
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -2852,6 +3019,7 @@ snapshots:
   escape-string-regexp@4.0.0: {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint-config-next@15.3.3(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
       '@next/eslint-plugin-next': 15.3.3
@@ -2866,6 +3034,8 @@ snapshots:
       eslint-plugin-react: 7.37.5(eslint@9.27.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.27.0(jiti@2.4.2))
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   eslint-config-next@15.3.3(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
       '@next/eslint-plugin-next': 15.3.3
@@ -2879,7 +3049,25 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.28.0(jiti@2.4.2))
       eslint-plugin-react: 7.37.5(eslint@9.28.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.28.0(jiti@2.4.2))
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  eslint-config-next@15.3.3(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3):
+    dependencies:
+      '@next/eslint-plugin-next': 15.3.3
+      '@rushstack/eslint-patch': 1.11.0
+      '@typescript-eslint/eslint-plugin': 8.33.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      eslint: 9.27.0(jiti@2.4.2)
+      eslint-import-resolver-node: 0.3.9
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.31.0)(eslint@9.27.0(jiti@2.4.2))
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2))
+      eslint-plugin-jsx-a11y: 6.10.2(eslint@9.27.0(jiti@2.4.2))
+      eslint-plugin-react: 7.37.5(eslint@9.27.0(jiti@2.4.2))
+      eslint-plugin-react-hooks: 5.2.0(eslint@9.27.0(jiti@2.4.2))
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     optionalDependencies:
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -2896,24 +3084,38 @@ snapshots:
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0)(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0)(eslint@9.28.0(jiti@2.4.2)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.1
       eslint: 9.28.0(jiti@2.4.2)
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0)(eslint@9.27.0(jiti@2.4.2)):
+    dependencies:
+      '@nolyfill/is-core-module': 1.0.39
+      debug: 4.4.1
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       get-tsconfig: 4.10.1
       is-bun-module: 2.0.0
       stable-hash: 0.0.5
       tinyglobby: 0.2.14
       unrs-resolver: 1.7.8
     optionalDependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2))
     transitivePeerDependencies:
@@ -2932,6 +3134,8 @@ snapshots:
 
   eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2)):
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.28.0(jiti@2.4.2))
     transitivePeerDependencies:
       - supports-color
@@ -2948,7 +3152,28 @@ snapshots:
       - supports-color
 
   eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.28.0(jiti@2.4.2)):
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2))
+    transitivePeerDependencies:
+      - supports-color
+
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2)):
+    dependencies:
+      debug: 3.2.7
+    optionalDependencies:
+      '@typescript-eslint/parser': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+      eslint: 9.27.0(jiti@2.4.2)
+      eslint-import-resolver-node: 0.3.9
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.31.0)(eslint@9.27.0(jiti@2.4.2))
+    transitivePeerDependencies:
+      - supports-color
+
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2)):
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -2958,6 +3183,7 @@ snapshots:
       debug: 3.2.7
       doctrine: 2.1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       eslint: 9.27.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2))
@@ -2966,6 +3192,16 @@ snapshots:
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.28.0(jiti@2.4.2))
 >>>>>>> a0e9dea (compaings)
+=======
+      eslint: 9.28.0(jiti@2.4.2)
+      eslint-import-resolver-node: 0.3.9
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.28.0(jiti@2.4.2))
+=======
+      eslint: 9.27.0(jiti@2.4.2)
+      eslint-import-resolver-node: 0.3.9
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.27.0(jiti@2.4.2))
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -2978,20 +3214,34 @@ snapshots:
       tsconfig-paths: 3.15.0
     optionalDependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@typescript-eslint/parser': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
 =======
       '@typescript-eslint/parser': 8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)
 >>>>>>> a0e9dea (compaings)
+=======
+      '@typescript-eslint/parser': 8.33.0(eslint@9.28.0(jiti@2.4.2))(typescript@5.8.3)
+=======
+      '@typescript-eslint/parser': 8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint-plugin-jsx-a11y@6.10.2(eslint@9.27.0(jiti@2.4.2)):
 =======
   eslint-plugin-jsx-a11y@6.10.2(eslint@9.28.0(jiti@2.4.2)):
 >>>>>>> a0e9dea (compaings)
+=======
+  eslint-plugin-jsx-a11y@6.10.2(eslint@9.28.0(jiti@2.4.2)):
+=======
+  eslint-plugin-jsx-a11y@6.10.2(eslint@9.27.0(jiti@2.4.2)):
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     dependencies:
       aria-query: 5.3.2
       array-includes: 3.1.8
@@ -3002,10 +3252,17 @@ snapshots:
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       eslint: 9.27.0(jiti@2.4.2)
 =======
       eslint: 9.28.0(jiti@2.4.2)
 >>>>>>> a0e9dea (compaings)
+=======
+      eslint: 9.28.0(jiti@2.4.2)
+=======
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
       language-tags: 1.0.9
@@ -3015,18 +3272,31 @@ snapshots:
       string.prototype.includes: 2.0.1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint-plugin-react-hooks@5.2.0(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.27.0(jiti@2.4.2)
 
   eslint-plugin-react@7.37.5(eslint@9.27.0(jiti@2.4.2)):
 =======
+=======
+>>>>>>> 721dcf3 (menu burger)
   eslint-plugin-react-hooks@5.2.0(eslint@9.28.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.28.0(jiti@2.4.2)
 
   eslint-plugin-react@7.37.5(eslint@9.28.0(jiti@2.4.2)):
+<<<<<<< HEAD
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+  eslint-plugin-react-hooks@5.2.0(eslint@9.27.0(jiti@2.4.2)):
+    dependencies:
+      eslint: 9.27.0(jiti@2.4.2)
+
+  eslint-plugin-react@7.37.5(eslint@9.27.0(jiti@2.4.2)):
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -3035,10 +3305,17 @@ snapshots:
       doctrine: 2.1.0
       es-iterator-helpers: 1.2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       eslint: 9.27.0(jiti@2.4.2)
 =======
       eslint: 9.28.0(jiti@2.4.2)
 >>>>>>> a0e9dea (compaings)
+=======
+      eslint: 9.28.0(jiti@2.4.2)
+=======
+      eslint: 9.27.0(jiti@2.4.2)
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       estraverse: 5.3.0
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -3062,6 +3339,7 @@ snapshots:
   eslint-visitor-keys@4.2.0: {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   eslint@9.27.0(jiti@2.4.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0(jiti@2.4.2))
@@ -3070,16 +3348,33 @@ snapshots:
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0(jiti@2.4.2))
 >>>>>>> a0e9dea (compaings)
+=======
+  eslint@9.28.0(jiti@2.4.2):
+    dependencies:
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0(jiti@2.4.2))
+=======
+  eslint@9.27.0(jiti@2.4.2):
+    dependencies:
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0(jiti@2.4.2))
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       '@eslint-community/regexpp': 4.12.1
       '@eslint/config-array': 0.20.0
       '@eslint/config-helpers': 0.2.2
       '@eslint/core': 0.14.0
       '@eslint/eslintrc': 3.3.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@eslint/js': 9.27.0
 =======
       '@eslint/js': 9.28.0
 >>>>>>> a0e9dea (compaings)
+=======
+      '@eslint/js': 9.28.0
+=======
+      '@eslint/js': 9.27.0
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
       '@eslint/plugin-kit': 0.3.1
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
@@ -3188,10 +3483,13 @@ snapshots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+>>>>>>> 721dcf3 (menu burger)
   framer-motion@12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       motion-dom: 12.15.0
@@ -3203,12 +3501,17 @@ snapshots:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bebac7d (menu burger)
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
   function-bind@1.1.2: {}
 
   function.prototype.name@1.1.8:
@@ -3296,10 +3599,17 @@ snapshots:
   ignore@5.3.2: {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ignore@7.0.4: {}
 =======
   ignore@7.0.5: {}
 >>>>>>> a0e9dea (compaings)
+=======
+  ignore@7.0.5: {}
+=======
+  ignore@7.0.4: {}
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
 
   import-fresh@3.3.1:
     dependencies:
@@ -3574,10 +3884,13 @@ snapshots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+>>>>>>> 721dcf3 (menu burger)
   motion-dom@12.15.0:
     dependencies:
       motion-utils: 12.12.1
@@ -3586,12 +3899,17 @@ snapshots:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bebac7d (menu burger)
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
 >>>>>>> a0e9dea (compaings)
+=======
+=======
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 721dcf3 (menu burger)
   ms@2.1.3: {}
 
   nanoid@3.3.11: {}
