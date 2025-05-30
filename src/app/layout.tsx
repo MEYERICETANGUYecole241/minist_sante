@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
@@ -10,6 +11,14 @@ import Navbar from "@/components/utilisateur/Navbar";
 =======
 import MobileMenu from "@/components/utilisateur/MobileMenu"
 >>>>>>> bebac7d (menu burger)
+=======
+import { Geist, Geist_Mono } from "next/font/google";
+import Footer from "@/components/utilisateur/Footer";
+=======
+>>>>>>> fcbb749 (Navebaré)
+import "./globals.css";
+import Navbar from "@/components/utilisateur/Navbar";
+>>>>>>> ed88f5f (Navebaré)
 
 
 export const metadata: Metadata = {
@@ -24,6 +33,7 @@ export default function RootLayout({
 }>) {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
     <html lang="fr">
       <body >
         <Navbar />
@@ -32,6 +42,8 @@ export default function RootLayout({
         </main>
       </body>
 =======
+=======
+>>>>>>> ed88f5f (Navebaré)
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -44,7 +56,19 @@ export default function RootLayout({
         {children}
         <Footer />
         </body>
+<<<<<<< HEAD
 >>>>>>> 876a674 (footer)
+=======
+=======
+    <html lang="fr">
+      <body >
+        <Navbar />
+        <main>
+        {children}
+        </main>
+      </body>
+>>>>>>> fcbb749 (Navebaré)
+>>>>>>> ed88f5f (Navebaré)
     </html>
   );
 }
