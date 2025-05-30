@@ -22,14 +22,20 @@ importers:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 721dcf3 (menu burger)
 =======
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
       framer-motion:
         specifier: ^12.15.0
         version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bebac7d (menu burger)
 =======
@@ -43,6 +49,8 @@ importers:
         version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 >>>>>>> a0e9dea (compaings)
 =======
+=======
+>>>>>>> c78fc9e (menu burger)
 >>>>>>> eb0499e (menu burger)
 <<<<<<< HEAD
 >>>>>>> 721dcf3 (menu burger)
@@ -52,7 +60,13 @@ importers:
         specifier: ^12.15.0
         version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+<<<<<<< HEAD
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
       lucide-react:
         specifier: ^0.511.0
         version: 0.511.0(react@19.1.0)
@@ -1173,6 +1187,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
@@ -1183,6 +1198,12 @@ packages:
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+=======
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   framer-motion@12.15.0:
     resolution: {integrity: sha512-XKg/LnKExdLGugZrDILV7jZjI599785lDIJZLxMiiIFidCsy0a4R2ZEf+Izm67zyOuJgQYTHOmodi7igQsw3vg==}
     peerDependencies:
@@ -1201,6 +1222,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bebac7d (menu burger)
 =======
@@ -1213,10 +1235,19 @@ packages:
 >>>>>>> 721dcf3 (menu burger)
 =======
 =======
+>>>>>>> c78fc9e (menu burger)
+=======
 >>>>>>> eb0499e (menu burger)
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+<<<<<<< HEAD
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+=======
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -1610,6 +1641,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
@@ -1620,12 +1652,19 @@ packages:
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+=======
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   motion-dom@12.15.0:
     resolution: {integrity: sha512-D2ldJgor+2vdcrDtKJw48k3OddXiZN1dDLLWrS8kiHzQdYVruh0IoTwbJBslrnTXIPgFED7PBN2Zbwl7rNqnhA==}
 
   motion-utils@12.12.1:
     resolution: {integrity: sha512-f9qiqUHm7hWSLlNW8gS9pisnsN7CRFRD58vNjptKdsqFLpkVnX00TNeD6Q0d27V9KzT7ySFyK1TZ/DShfVOv6w==}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1642,10 +1681,19 @@ packages:
 >>>>>>> 721dcf3 (menu burger)
 =======
 =======
+>>>>>>> c78fc9e (menu burger)
+=======
 >>>>>>> eb0499e (menu burger)
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+<<<<<<< HEAD
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+=======
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
@@ -3520,6 +3568,7 @@ snapshots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
@@ -3530,6 +3579,12 @@ snapshots:
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+=======
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   framer-motion@12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       motion-dom: 12.15.0
@@ -3539,6 +3594,7 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3555,10 +3611,19 @@ snapshots:
 >>>>>>> 721dcf3 (menu burger)
 =======
 =======
+>>>>>>> c78fc9e (menu burger)
+=======
 >>>>>>> eb0499e (menu burger)
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+<<<<<<< HEAD
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+=======
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   function-bind@1.1.2: {}
 
   function.prototype.name@1.1.8:
@@ -3933,6 +3998,7 @@ snapshots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 =======
@@ -3943,12 +4009,19 @@ snapshots:
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+>>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+=======
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   motion-dom@12.15.0:
     dependencies:
       motion-utils: 12.12.1
 
   motion-utils@12.12.1: {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3965,10 +4038,19 @@ snapshots:
 >>>>>>> 721dcf3 (menu burger)
 =======
 =======
+>>>>>>> c78fc9e (menu burger)
+=======
 >>>>>>> eb0499e (menu burger)
 =======
 >>>>>>> 7b10b74 (modification de la navbar et ajout du hero)
+<<<<<<< HEAD
 >>>>>>> c4bb75e (modification de la navbar et ajout du hero)
+=======
+=======
+=======
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
   ms@2.1.3: {}
 
   nanoid@3.3.11: {}

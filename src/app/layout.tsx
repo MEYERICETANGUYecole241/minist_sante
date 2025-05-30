@@ -31,7 +31,11 @@ import Footer from "@/components/utilisateur/Footer";
 >>>>>>> 876a674 (footer)
 >>>>>>> b3d990c (footer)
 import "./globals.css";
+<<<<<<< HEAD
 import Navbar from "@/components/utilisateur/Navbar";
+=======
+import MobileMenu from "@/components/utilisateur/MobileMenu"
+>>>>>>> bebac7d (menu burger)
 
 >>>>>>> 82f9253 (Navebaré)
 
@@ -94,8 +98,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+<<<<<<< HEAD
 
       >
+=======
+      > <MobileMenu />
+>>>>>>> eb0499e (menu burger)
         {children}
         <Footer />
         </body>

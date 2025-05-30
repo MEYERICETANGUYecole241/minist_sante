@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 'use client';
 
 import Link from 'next/link';
@@ -22,10 +23,35 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
 <<<<<<< HEAD
 =======
 import React from 'react'
+=======
+"use client";
 
-export default function MobileMenu() {
+import { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { usePathname } from "next/navigation";
+
+export default function Navbar() {
+  const [open, setOpen] = useState(false);
+  const pathname = usePathname(); // pour savoir quel lien est actif
+
+  const links = [
+    { href: "/", label: "Accueil" },
+    { href: "/services", label: "Services" },
+    { href: "/ministère", label: "Ministère" },
+    { href: "/services aux usagers", label: "Services aux usagers" },
+    { href: "/presse", label: "Presse" },
+    { href: "/actualités", label: "Actualités" },
+    { href: "/contact", label: "Contact" },
+  ];
+>>>>>>> 8623f0b (menu burger)
+
   return (
+<<<<<<< HEAD
 >>>>>>> b3d990c (footer)
+=======
+<<<<<<< HEAD
+>>>>>>> 8623f0b (menu burger)
     <div>
       <h1>
         gft
@@ -34,6 +60,9 @@ export default function MobileMenu() {
     </div>
   )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8623f0b (menu burger)
 =======
     <header className="bg-[#28a745] text-white shadow-md relative z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
@@ -94,6 +123,7 @@ export default function MobileMenu() {
         </nav>
       )}
     </header>
+<<<<<<< HEAD
 =======
     <nav className="bg-[#28a745] rounded-lg shadow-lg divide-y divide-white/10">
       <ul>
@@ -117,4 +147,8 @@ export default function MobileMenu() {
 >>>>>>> eb0499e (menu burger)
 =======
 >>>>>>> b3d990c (footer)
+=======
+  );
+>>>>>>> eb0499e (menu burger)
+>>>>>>> 8623f0b (menu burger)
 }

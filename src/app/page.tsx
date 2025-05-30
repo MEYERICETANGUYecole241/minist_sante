@@ -41,6 +41,7 @@ export default function Home() {
 import React from 'react'
 import HeroSection from '@/components/sections/HeroSection'
 
+<<<<<<< HEAD
 export default function page() {
   return (
     <div>
@@ -48,5 +49,15 @@ export default function page() {
     </div>
   )
 }
+<<<<<<< HEAD
 >>>>>>> fcbb749 (Navebaré)
+<<<<<<< HEAD
 >>>>>>> 82f9253 (Navebaré)
+=======
+=======
+=======
+export default function Home() {
+  
+>>>>>>> bebac7d (menu burger)
+>>>>>>> 8623f0b (menu burger)
+>>>>>>> c78fc9e (menu burger)
