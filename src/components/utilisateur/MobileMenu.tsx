@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'use client';
 
 import Link from 'next/link';
@@ -25,16 +26,19 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
 import React from 'react'
 =======
 "use client";
+=======
+'use client';
+>>>>>>> 480ac9e (Navebaré)
 
-import { useState } from "react";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import { usePathname } from "next/navigation";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-export default function Navbar() {
-  const [open, setOpen] = useState(false);
-  const pathname = usePathname(); // pour savoir quel lien est actif
+type NavLink = {
+  href: string;
+  label: string;
+};
 
+<<<<<<< HEAD
   const links = [
     { href: "/", label: "Accueil" },
     { href: "/services", label: "Services" },
@@ -52,6 +56,19 @@ export default function Navbar() {
 =======
 <<<<<<< HEAD
 >>>>>>> 8623f0b (menu burger)
+=======
+type MobileMenuProps = {
+  links: NavLink[];
+  onClose: () => void;
+};
+
+export default function MobileMenu({ links, onClose }: MobileMenuProps) {
+  const pathname = usePathname();
+
+  return (
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 480ac9e (Navebaré)
     <div>
       <h1>
         gft
@@ -124,6 +141,9 @@ export default function Navbar() {
       )}
     </header>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 480ac9e (Navebaré)
 =======
     <nav className="bg-[#28a745] rounded-lg shadow-lg divide-y divide-white/10">
       <ul>
