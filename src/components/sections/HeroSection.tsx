@@ -36,7 +36,11 @@ export default function Hero() {
   };
 
   return (
+<<<<<<< HEAD
     <div className="relative h-screen overflow-hidden font-roboto">
+=======
+    <div className="relative h-screen overflow-hidden">
+>>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
       {/* --------------------------
           ARRIÈRE-PLAN ANIMÉ (CARROUSEL)
       -------------------------- */}
