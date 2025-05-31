@@ -38,6 +38,7 @@ export default function Hero() {
   return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div className="relative h-screen overflow-hidden font-roboto">
 =======
     <div className="relative h-screen overflow-hidden">
@@ -45,6 +46,12 @@ export default function Hero() {
 =======
     <div className="relative h-screen overflow-hidden font-roboto">
 >>>>>>> 99a00a4 (	modified:   src/components/sections/AlertBanner.tsx)
+=======
+    <div className="relative h-screen overflow-hidden font-roboto">
+=======
+    <div className="relative h-screen overflow-hidden">
+>>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
+>>>>>>> 485f289 (modification de la navbar et ajout du hero)
       {/* --------------------------
           ARRIÈRE-PLAN ANIMÉ (CARROUSEL)
       -------------------------- */}

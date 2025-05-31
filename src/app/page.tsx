@@ -40,6 +40,7 @@ export default function Home() {
 =======
 import React from 'react'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import HeroSection from '@/components/sections/HeroSection'
 
 <<<<<<< HEAD
@@ -67,11 +68,14 @@ export default function Home() {
 =======
 =======
 =======
+=======
+import HeroSection from '@/components/sections/HeroSection'
+>>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
 
 export default function page() {
   return (
     <div>
-      salutation
+      <HeroSection />
     </div>
   )
 }
