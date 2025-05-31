@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import Link from 'next/link';
@@ -19,6 +20,12 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
   return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+import React from 'react'
+
+export default function MobileMenu() {
+  return (
+>>>>>>> b3d990c (footer)
     <div>
       <h1>
         gft
@@ -26,6 +33,7 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
       
     </div>
   )
+<<<<<<< HEAD
 =======
     <header className="bg-[#28a745] text-white shadow-md relative z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
@@ -107,4 +115,6 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
 >>>>>>> fcbb749 (Navebaré)
   );
 >>>>>>> eb0499e (menu burger)
+=======
+>>>>>>> b3d990c (footer)
 }

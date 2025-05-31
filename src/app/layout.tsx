@@ -2,6 +2,7 @@
 =======
 import type { Metadata } from "next";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
 <<<<<<< HEAD
@@ -23,6 +24,12 @@ import MobileMenu from "@/components/utilisateur/MobileMenu"
 =======
 =======
 >>>>>>> fcbb749 (Navebaré)
+=======
+=======
+import { Geist, Geist_Mono } from "next/font/google";
+import Footer from "@/components/utilisateur/Footer";
+>>>>>>> 876a674 (footer)
+>>>>>>> b3d990c (footer)
 import "./globals.css";
 import Navbar from "@/components/utilisateur/Navbar";
 
@@ -37,6 +44,7 @@ export default function RootLayout({
   return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <html lang="fr">
       <body>
         <Navbar />
@@ -48,6 +56,8 @@ export default function RootLayout({
 =======
 =======
 >>>>>>> 82f9253 (Navebaré)
+=======
+>>>>>>> ab725ee (footer)
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -65,6 +75,8 @@ export default function RootLayout({
 >>>>>>> 876a674 (footer)
 =======
 =======
+=======
+>>>>>>> b3d990c (footer)
     <html lang="fr">
       <body >
         <Navbar />
@@ -72,8 +84,24 @@ export default function RootLayout({
         {children}
         </main>
       </body>
+<<<<<<< HEAD
 >>>>>>> fcbb749 (Navebaré)
+<<<<<<< HEAD
 >>>>>>> 82f9253 (Navebaré)
+=======
+=======
+=======
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+
+      >
+        {children}
+        <Footer />
+        </body>
+>>>>>>> 876a674 (footer)
+>>>>>>> b3d990c (footer)
+>>>>>>> ab725ee (footer)
     </html>
   );
 }
