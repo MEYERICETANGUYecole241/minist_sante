@@ -36,7 +36,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden font-roboto">
       {/* --------------------------
           ARRIÈRE-PLAN ANIMÉ (CARROUSEL)
       -------------------------- */}
