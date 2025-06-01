@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
+import CompaingsSection from "@/components/sections/CompaingsSection";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({
 
       >
         {children}
+        <CompaingsSection/>
         <Footer />
         </body>
     </html>
