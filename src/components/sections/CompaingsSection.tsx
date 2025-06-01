@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React, { useEffect, useRef } from "react";
@@ -103,3 +104,14 @@ export const CampaignsSection = () => {
 };
 
 export default CampaignsSection;
+=======
+import React from 'react'
+
+export default function CompaingsSection() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+>>>>>>> 3da6dcf (	modified:   src/components/sections/CompaingsSection.tsx)
