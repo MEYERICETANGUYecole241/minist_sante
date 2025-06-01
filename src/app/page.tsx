@@ -39,10 +39,9 @@ export default function Home() {
 =======
 =======
 import React from 'react'
-<<<<<<< HEAD
-<<<<<<< HEAD
 import HeroSection from '@/components/sections/HeroSection'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 export default function page() {
   return (
@@ -71,6 +70,10 @@ export default function Home() {
 =======
 import HeroSection from '@/components/sections/HeroSection'
 >>>>>>> 8b34b52 (modification de la navbar et ajout du hero)
+=======
+
+
+>>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
 
 export default function page() {
   return (
@@ -79,6 +82,13 @@ export default function page() {
     </div>
   )
 }
+<<<<<<< HEAD
 >>>>>>> ed88f5f (Navebaré)
 >>>>>>> 480ac9e (Navebaré)
+<<<<<<< HEAD
 >>>>>>> cc6f446 (Navebaré)
+=======
+=======
+
+>>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
+>>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
