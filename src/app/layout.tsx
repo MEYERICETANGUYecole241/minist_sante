@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
@@ -13,13 +14,12 @@ import MobileMenu from "@/components/utilisateur/MobileMenu"
 >>>>>>> bebac7d (menu burger)
 =======
 import { Geist, Geist_Mono } from "next/font/google";
-import Footer from "@/components/utilisateur/Footer";
 =======
->>>>>>> fcbb749 (Navebaré)
+>>>>>>> 11633f7 (	modified:   src/app/layout.tsx)
+import Footer from "@/components/utilisateur/Footer";
 import "./globals.css";
 import Navbar from "@/components/utilisateur/Navbar";
 >>>>>>> ed88f5f (Navebaré)
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -32,6 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <html lang="fr">
@@ -60,15 +61,21 @@ export default function RootLayout({
 >>>>>>> 876a674 (footer)
 =======
 =======
+=======
+>>>>>>> 11633f7 (	modified:   src/app/layout.tsx)
     <html lang="fr">
-      <body >
+      <body>
         <Navbar />
         <main>
-        {children}
+          {children}
         </main>
+        <Footer />
       </body>
+<<<<<<< HEAD
 >>>>>>> fcbb749 (Navebaré)
 >>>>>>> ed88f5f (Navebaré)
+=======
+>>>>>>> 11633f7 (	modified:   src/app/layout.tsx)
     </html>
   );
 }
