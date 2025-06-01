@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react'
 import HeroSection from '@/components/sections/HeroSection'
 =======
@@ -74,13 +75,20 @@ import HeroSection from '@/components/sections/HeroSection'
 
 
 >>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
+=======
+import React from 'react'
+import HeroSection from '@/components/sections/HeroSection'
+import CompaingsSection from "@/components/sections/CompaingsSection";
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
 
 export default function page() {
   return (
     <div>
       <HeroSection />
+      <CompaingsSection  />
     </div>
   )
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 >>>>>>> ed88f5f (Navebaré)
@@ -92,3 +100,6 @@ export default function page() {
 
 >>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
 >>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
+=======
+}
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)

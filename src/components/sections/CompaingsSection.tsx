@@ -43,7 +43,7 @@ const campaigns: Campaign[] = [
   },
 ];
 
-export const CampaignsSection = () => {
+function CampaignsSection() {
   const controls = useAnimation();
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -100,6 +100,13 @@ export const CampaignsSection = () => {
       </div>
     </section>
   );
+<<<<<<< HEAD
 };
 
 export default CampaignsSection;
+=======
+}
+
+
+
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -128,10 +129,10 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4"
         >
           <Button className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 text-sm sm:text-base font-semibold rounded-lg shadow-lg transition-all duration-200">
-            Nos Services
+            <Link href='#'>Nos Services</Link>
           </Button>
           <Button className="bg-transparent border border-white hover:bg-white hover:text-[#28a745] text-white px-6 py-3 text-sm sm:text-base font-semibold rounded-lg shadow-lg transition-all duration-200">
-            Contactez-nous
+            <Link href='#'>Contactez-nous</Link>
           </Button>
         </motion.div>
       </div>

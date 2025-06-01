@@ -1,16 +1,22 @@
 "use client"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import Image from "next/image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
 import React from "react"
+<<<<<<< HEAD
 // Assurez-vous que votre fichier globals.css inclut les directives Tailwind:
 // @tailwind base;
 // @tailwind components;
 // @tailwind utilities;
 <<<<<<< HEAD
+=======
+
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
 
 export default function Footer() {
   return (
@@ -43,36 +49,37 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base md:text-lg font-semibold mb-3">Liens utiles</h3>
               <ul className="list-none p-0">
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Contacter le ministère</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Carrières</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">FAQ du ministère de la santé</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Avis de non-discrimination</a></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Contacter le ministère</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Carrières</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">FAQ du ministère de la santé</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Avis de non-discrimination</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-black text-base md:text-lg font-semibold mb-3">Informations</h3>
               <ul className="list-none p-0">
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Salle de presse</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Archives du ministère</a></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Salle de presse</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Archives du ministère</Link></li>
                 {/* CORRECTED LINE for Déclaration d'accessibilité */}
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Déclaration d&apos;accessibilité</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Politique de confidentialité</a></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Déclaration d&apos;accessibilité</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Politique de confidentialité</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-black text-base md:text-lg font-semibold mb-3">Ressources</h3>
               <ul className="list-none p-0">
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Budget/Performance</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Inspecteur général</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Avis de non-responsabilité du site Web</a></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Budget/Performance</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Inspecteur général</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Avis de non-responsabilité du site Web</Link></li>
                 {/* CORRECTED LINE for Loi sur l'égalité des chances et la non-peur */}
-                <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Loi sur l&apos;égalité des chances et la non-peur</a></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Loi sur l&apos;égalité des chances et la non-peur</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-black text-base md:text-lg font-semibold mb-3">Légal</h3>
               <ul className="list-none p-0">
                 {/* CORRECTED LINE for Loi sur la liberté d'information (FOIA) */}
+<<<<<<< HEAD
                 <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Loi sur la liberté d&apos;information (FOIA)</a></li>
                 <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">La Présidence</a></li>
                 <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Ga.gov</a></li>
@@ -158,6 +165,12 @@ export default function Footer() {
                 <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Ga.gov</a></li>
                 <li className="mb-2"><a href="#" className="text-white text-sm hover:underline">Politique de divulgation des vulnérabilités</a></li>
 >>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
+=======
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Loi sur la liberté d&apos;information (FOIA)</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">La Présidence</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Ga.gov</Link></li>
+                <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Politique de divulgation des vulnérabilités</Link></li>
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
               </ul>
             </div>
           </div>
@@ -186,30 +199,30 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-end"> {/* Centrer les éléments sur mobile, aligner à droite sur desktop */}
             <p className="font-bold mb-3 text-base md:text-lg">Suivez Nous</p>
             <div className="flex gap-4 mb-4"> {/* Espacement des icônes */}
-              <a href="https://www.facebook.com/MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
+              <Link href="https://www.facebook.com/MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
                 <Facebook size={24} /> {/* Taille des icônes pour une meilleure visibilité */}
-              </a>
-              <a href="https://twitter.com/MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
+              </Link>
+              <Link href="https://twitter.com/MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
                 <Twitter size={24} />
-              </a>
-              <a href="https://www.instagram.com/ministere.sante.gabon/" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
+              </Link>
+              <Link href="https://www.instagram.com/ministere.sante.gabon/" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
                 <Instagram size={24} />
-              </a>
-              <a href="https://www.linkedin.com/company/ministere-de-la-sante-gabon/" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
+              </Link>
+              <Link href="https://www.linkedin.com/company/ministere-de-la-sante-gabon/" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
                 <Linkedin size={24} />
-              </a>
-              <a href="https://www.youtube.com/@MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
+              </Link>
+              <Link href="https://www.youtube.com/@MinistereSanteGabon" className="text-gray-200 hover:scale-110 transition-all duration-300 hover:text-white">
                 <Youtube size={24} />
-              </a>
+              </Link>
             </div>
 
             {/* Bouton Retour en haut */}
-            <button
+            <Button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="bg-gray-800 text-white border-none py-2 px-4 rounded-md cursor-pointer text-sm hover:bg-gray-700 transition-colors duration-300"
             >
               ↑ Retour en haut
-            </button>
+            </Button>
           </div>
         </div>
       </div>

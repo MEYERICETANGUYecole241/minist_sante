@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
@@ -52,6 +53,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
 =======
 >>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
+=======
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
 import "./globals.css";
 import Navbar from "@/components/utilisateur/Navbar";
 import Footer from "@/components/utilisateur/Footer";
@@ -78,6 +81,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,6 +172,9 @@ export default function RootLayout({
 >>>>>>> 11633f7 (	modified:   src/app/layout.tsx)
 =======
 >>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
+=======
+
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
     <html lang="fr">
       <body>
         <Navbar />
@@ -176,6 +183,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fcbb749 (Navebaré)
@@ -195,6 +203,8 @@ export default function RootLayout({
 =======
 >>>>>>> 00f98e1 (	modified:   src/app/layout.tsx)
 >>>>>>> 47c2f8e (	modified:   src/app/layout.tsx)
+=======
+>>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
     </html>
   );
 }
