@@ -125,17 +125,4 @@ export default function CampaignsSection() {
       </div>
     </section>
   );
-<<<<<<< HEAD
-<<<<<<< HEAD
-};
-
-export default CampaignsSection;
-=======
 }
-
-
-
->>>>>>> 2e2c1cf (	modified:   src/app/layout.tsx)
-=======
-}
->>>>>>> 58318f2 (	modified:   pnpm-lock.yaml)
