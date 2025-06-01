@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import React from 'react'
 import HeroSection from '@/components/sections/HeroSection'
+=======
+import CompaingsSection from "@/components/sections/CompaingsSection";
+>>>>>>> a0e9dea (compaings)
 
 
 
@@ -7,7 +11,12 @@ import HeroSection from '@/components/sections/HeroSection'
 export default function page() {
   return (
     <div>
+<<<<<<< HEAD
       <HeroSection />
+=======
+      
+
+>>>>>>> a0e9dea (compaings)
     </div>
   )
 }

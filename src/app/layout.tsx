@@ -3,7 +3,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/utilisateur/Footer";
+<<<<<<< HEAD
 >>>>>>> 876a674 (footer)
+=======
+import CompaingsSection from "@/components/sections/CompaingsSection";
+>>>>>>> a0e9dea (compaings)
 import "./globals.css";
 import Navbar from "@/components/utilisateur/Navbar";
 import Footer from "@/components/utilisateur/Footer";
@@ -34,6 +38,7 @@ export default function RootLayout({
 
       >
         {children}
+        <CompaingsSection/>
         <Footer />
         </body>
 >>>>>>> 876a674 (footer)
