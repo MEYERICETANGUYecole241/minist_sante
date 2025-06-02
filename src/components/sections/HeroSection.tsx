@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link'; // Make sure Link is imported if used
+import AlertBanner from '@/components/sections/AlertBanner';
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,9 +40,6 @@ export default function Hero() {
 
   return (
     <div className="relative h-screen overflow-hidden font-roboto">
-      {/* --------------------------
-          ARRIÈRE-PLAN ANIMÉ (CARROUSEL)
-      -------------------------- */}
       <div className="absolute inset-0">
         {bgImages.map((src, index) => (
           <motion.div

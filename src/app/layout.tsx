@@ -4,6 +4,7 @@ import Footer from "@/components/utilisateur/Footer";
 
 
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
