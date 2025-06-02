@@ -5,6 +5,7 @@ import { Menu, X, Search, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link'; // Make sure Link is imported if used
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); // État pour le menu hamburger (mobile)
@@ -17,13 +18,13 @@ export default function Navbar() {
     {
       label: 'Accueil',
       children: [
-        { href: '#accueil', label: 'Section Accueil' },
-        { href: '#services', label: 'Section Services' },
-        { href: '#ministere', label: 'Section Ministère' },
-        { href: '#usagers', label: 'Section Usagers' },
-        { href: '#presse', label: 'Section Presse' },
-        { href: '#actualites', label: 'Section Actualités' },
-        { href: '#contact', label: 'Section Contact' },
+        { href: '#HeroSection', label: 'Accueil' },
+        { href: '#ServicesSections', label: 'Services' },
+        { href: '#DownloadSection', label: 'Documents' },
+        { href: '#NewSection', label: 'Actualités' },
+        { href: '#ContactSection', label: 'Contact' },
+        { href: '#CompaingsSection', label: 'Compagnes' },
+        { href: '#StatsSection', label: 'Statistiques' },
       ],
     },
     {
@@ -92,7 +93,8 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#28a745] text-white shadow-md z-50 font-roboto">
+    // J'ai retiré 'font-roboto' ici. La police définie globalement (Open Sans via font-sans) s'appliquera.
+    <header className="fixed top-0 left-0 w-full bg-[#28a745] text-white shadow-md z-50">
       {/* Conteneur principal de la navbar, max-w-full pour les petits écrans */}
       <div className="max-w-full md:max-w-7xl mx-auto px-4 py-3 flex items-center justify-between min-h-[70px]">
         {/* Groupe Logo et Titre */}
