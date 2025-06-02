@@ -11,7 +11,6 @@ import {
   GraduationCap,
   HeartPulse,
   Pill,
-  ShieldCheck,
 } from "lucide-react";
 
 const services = [

@@ -5,7 +5,6 @@ import { Menu, X, Search, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import Link from 'next/link'; // Make sure Link is imported if used
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); // État pour le menu hamburger (mobile)
