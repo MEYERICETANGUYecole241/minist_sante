@@ -1,0 +1,47 @@
+.readMoreLink {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0fc233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; /* Pour s'assurer qu'il ne s'étire pas si la carte est flex */
+}
+
+.readMoreLink:hover {
+  background-color: #00a216; /* Couleur au survol */
+  color: #fff;
+}
+
+.seeAllNewsLink {
+  font-size: 1.1em;
+  color: #00a216;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.seeAllNewsLink:hover {
+  color: #00a216;
+  text-decoration: underline;
+}
+
+/* Styles pour l'animation de l'image */
+.newsImageContainer {
+  overflow: hidden; /* Empêche l'image zoomée de déborder si elle a des coins arrondis */
+  border-radius: 4px; /* Assorti aux coins arrondis de l'image si désiré sur le conteneur */
+  margin-bottom: 10px; /* Marge qui était précédemment sur l'image */
+}
+
+.newsImage {
+  display: block; /* Pour éviter tout espace blanc sous l'image */
+  width: 100%;
+  height: 200px; /* Doit correspondre aux dimensions de l'Image Next.js pour un bon object-fit */
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.35s ease-in-out;
+}
+
+.newsImageContainer:hover .newsImage {
+  transform: scale(1.07);
+} 
