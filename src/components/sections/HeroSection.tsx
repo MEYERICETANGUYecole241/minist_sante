@@ -5,7 +5,10 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link'; // Make sure Link is imported if used
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,7 +30,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % bgImages.length);
-    }, 6000);
+    }, 4000);
     // Nettoyage de l'intervalle pour éviter les fuites de mémoire
     return () => clearInterval(interval);
   }, [bgImages.length]); // Dépendance: relance l'effet si le nombre d'images change
@@ -39,7 +42,9 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative h-screen overflow-hidden font-roboto">
+    // J'ai retiré 'font-roboto' pour que la police définie globalement s'applique.
+    // Si 'Open Sans' est configuré comme 'font-sans' dans Tailwind, il s'appliquera par défaut.
+    <div className="relative h-screen overflow-hidden">
       <div className="absolute inset-0">
         {bgImages.map((src, index) => (
           <motion.div
@@ -53,9 +58,9 @@ export default function Hero() {
             <Image
               src={src}
               alt={`Fond ${index + 1} du Ministère de la Santé du Gabon`} // Texte alt plus descriptif
-              fill 
-              className="object-cover" 
-              priority={index === currentIndex} 
+              fill
+              className="object-cover"
+              priority={index === currentIndex}
             />
           </motion.div>
         ))}
@@ -75,6 +80,7 @@ export default function Hero() {
             hidden: {}, // État initial vide
             visible: { transition: { staggerChildren: 0.05 } }, // Anime les enfants avec un décalage
           }}
+          // Pas de changement ici, la police sera héritée du body
           className="group text-white text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4 drop-shadow-lg relative" // Ajout de 'relative' pour le shimmer
         >
           {'Bienvenue au Ministère de la Santé du Gabon'.split('').map((char, i) => (
@@ -96,6 +102,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }} // Commence invisible et légèrement en dessous
           animate={{ opacity: 1, y: 0 }} // Anime vers visible et position normale
           transition={{ delay: 0.4, duration: 0.6 }} // Délai après le titre, durée de l'animation
+          // Pas de changement ici, la police sera héritée du body
           className="text-white text-base sm:text-lg lg:text-xl max-w-2xl mb-8 drop-shadow-sm"
         >
           Agir pour la santé de tous les Gabonais, promouvoir le bien-être, et assurer

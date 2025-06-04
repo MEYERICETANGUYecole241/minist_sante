@@ -1,10 +1,14 @@
 "use client"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
 import { Button } from '@/components/ui/button' // Assurez-vous d'avoir ce chemin correct si vous utilisez Shadcn UI
 import Link from 'next/link' // Importation du composant Link de Next.js
 import Image from "next/image"
 import React from "react"
+<<<<<<< HEAD
 =======
 import Image from "next/image"
 import React from "react";
@@ -13,6 +17,11 @@ import React from "react";
 const Footer = () => {
   return (
 <<<<<<< HEAD
+=======
+
+const Footer = () => {
+  return (
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
     <footer className="bg-[#28a745] text-white py-4 px-2 sm:px-4 md:px-6">
       {/* Conteneur principal du footer, max-w pour centrer le contenu */}
       <div className="max-w-7xl mx-auto">
@@ -73,6 +82,7 @@ const Footer = () => {
                 <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">La Présidence</Link></li>
                 <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Ga.gov</Link></li>
                 <li className="mb-2"><Link href="#" className="text-white text-sm hover:underline">Politique de divulgation des vulnérabilités</Link></li>
+<<<<<<< HEAD
 =======
     <footer className="bg-[#28a745] text-white p-2 md:p-4">
       <div className="max-w-6xl mx-auto px-4">
@@ -132,12 +142,17 @@ const Footer = () => {
                 <li><a href="#" className="text-white hover:underline">Ga.gov</a></li>
                 <li><a href="#" className="text-white hover:underline">Politique de divulgation</a></li>
 >>>>>>> 84b41bd2d79a48f183644971efb1208077b633a8
+=======
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
               </ul>
             </div>
           </div>
         </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
         <hr className="border-black mb-6 md:mb-8" />
 
         {/* Section inférieure: Informations de contact et Réseaux sociaux */}
@@ -181,6 +196,7 @@ const Footer = () => {
             >
               ↑ Retour en haut
             </Button>
+<<<<<<< HEAD
 =======
         <hr className="border-black my-6" />
 
@@ -224,10 +240,13 @@ const Footer = () => {
               ↑ Retour en haut
             </button>
 >>>>>>> 84b41bd2d79a48f183644971efb1208077b633a8
+=======
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
           </div>
         </div>
       </div>
     </footer>
+<<<<<<< HEAD
 <<<<<<< HEAD
   )
 }
@@ -237,3 +256,7 @@ const Footer = () => {
 
 export default Footer;
 >>>>>>> 84b41bd2d79a48f183644971efb1208077b633a8
+=======
+  )
+}
+>>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
