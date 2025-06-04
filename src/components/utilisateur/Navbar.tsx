@@ -5,13 +5,14 @@ import { Menu, X, Search, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import LanguageSwitcher from '@/components/utilisateur/LanguageSwitcher';
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false); // État pour le menu hamburger (mobile)
-  const [showSearch, setShowSearch] = useState(false); // État pour la barre de recherche
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null); // État pour les dropdowns desktop
-  const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null); // État pour les dropdowns du menu mobile
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null);
 
   const links = [
     {
@@ -92,24 +93,14 @@ export default function Navbar() {
   };
 
   return (
-    // J'ai retiré 'font-roboto' ici. La police définie globalement (Open Sans via font-sans) s'appliquera.
     <header className="fixed top-0 left-0 w-full bg-[#28a745] text-white shadow-md z-50">
-      {/* Conteneur principal de la navbar, max-w-full pour les petits écrans */}
-      <div className="max-w-full md:max-w-7xl mx-auto px-4 py-3 flex items-center justify-between min-h-[70px]">
-        {/* Groupe Logo et Titre */}
-        <div className="flex items-center space-x-2 flex-shrink-0 min-w-0"> {/* min-w-0 pour permettre au contenu de rétrécir si nécessaire */}
-          <Image
-            src="/logo.png"
-            alt="Logo Ministère"
-            width={60}
-            height={60}
-            className="shadow-md flex-shrink-0"
-          />
+      <div className="max-w-full md:max-w-7xl mx-auto gap-1.5 px-1 flex items-center justify-between min-h-[70px]">
+        <div className="flex items-center space-x-2 flex-shrink-0 min-w-0">
+          <Image src="/logo.png" alt="Logo Ministère" width={60} height={60} className="shadow-md flex-shrink-0" />
           <motion.div
             initial="hidden"
             animate="visible"
             variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.05 } } }}
-            // Ajustement des tailles de texte du titre pour une meilleure responsivité
             className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold tracking-wider uppercase whitespace-nowrap relative group cursor-pointer leading-none"
           >
             {'Ministère de la Santé'.split('').map((char, i) => (
@@ -121,7 +112,6 @@ export default function Navbar() {
           </motion.div>
         </div>
 
-        {/* Navigation Desktop : Affiché à partir de 'lg' (1024px) */}
         <nav className="hidden lg:flex flex-grow justify-end items-center space-x-4 xl:space-x-6">
           {links.map(({ label, children }) => (
             <div
@@ -132,12 +122,7 @@ export default function Navbar() {
             >
               <button className="flex items-center text-sm lg:text-base hover:text-yellow-200 transition duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 group-hover:after:w-full">
                 {label}
-                {/* Taille des chevrons ajustée */}
-                {activeDropdown === label ? (
-                  <ChevronUp size={12} className="ml-0.5 transition-transform duration-200" />
-                ) : (
-                  <ChevronDown size={12} className="ml-0.5 transition-transform duration-200" />
-                )}
+                {activeDropdown === label ? <ChevronUp size={12} className="ml-0.5" /> : <ChevronDown size={12} className="ml-0.5" />}
               </button>
               <AnimatePresence>
                 {activeDropdown === label && (
@@ -146,7 +131,7 @@ export default function Navbar() {
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 0.95, y: -10 }}
                     transition={{ duration: 0.2 }}
-                    className="absolute left-0 mt-2 w-56 bg-white text-black rounded-md shadow-lg transform origin-top z-50"
+                    className="absolute left-0 mt-2 w-56 bg-white text-black rounded-md shadow-lg z-50"
                   >
                     {children.map(({ href, label }) => (
                       <a key={href} href={href} className="block px-4 py-2 text-sm hover:bg-gray-200">
@@ -159,14 +144,8 @@ export default function Navbar() {
             </div>
           ))}
 
-          {/* Bouton de recherche Desktop */}
-          <div className="relative ml-4"> {/* Marge à gauche pour séparer de la nav */}
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setShowSearch(!showSearch)}
-              className="text-white hover:text-yellow-200"
-            >
+          <div className="relative ml-4">
+            <Button variant="ghost" size="icon" onClick={() => setShowSearch(!showSearch)} className="text-white hover:text-yellow-200">
               <Search size={22} />
             </Button>
             <AnimatePresence>
@@ -193,20 +172,19 @@ export default function Navbar() {
               )}
             </AnimatePresence>
           </div>
+
+          <div className="ml-4">
+            <LanguageSwitcher />
+          </div>
         </nav>
 
-        {/* Navigation Mobile : Visible en dessous de 'lg' (1024px) */}
         <div className="lg:hidden relative flex items-center gap-2 flex-shrink-0">
-          {/* Bouton de recherche Mobile */}
           <Button variant="ghost" size="icon" onClick={() => setShowSearch(!showSearch)} className="text-white">
             <Search size={22} />
           </Button>
-          {/* Bouton Menu Hamburger */}
           <Button variant="ghost" size="icon" onClick={() => setMenuOpen(!menuOpen)} className="text-white">
             {menuOpen ? <X size={28} /> : <Menu size={28} />}
           </Button>
-
-          {/* Menu Hamburger déroulant (overlay) */}
           <AnimatePresence>
             {menuOpen && (
               <motion.div
@@ -232,7 +210,7 @@ export default function Navbar() {
                           animate={{ height: 'auto', opacity: 1 }}
                           exit={{ height: 0, opacity: 0 }}
                           transition={{ duration: 0.2 }}
-                          className="mt-2 pl-4 space-y-1 bg-[#1e8a3a] rounded-md" // Couleur de fond légèrement différente pour les sous-menus
+                          className="mt-2 pl-4 space-y-1 bg-[#1e8a3a] rounded-md"
                         >
                           {children.map(({ href, label }) => (
                             <li key={href}>
@@ -246,13 +224,16 @@ export default function Navbar() {
                     </AnimatePresence>
                   </div>
                 ))}
+
+                <div className="mt-4">
+                  <LanguageSwitcher />
+                </div>
               </motion.div>
             )}
           </AnimatePresence>
         </div>
       </div>
 
-      {/* Barre de recherche Mobile (apparaît sous la navbar sur les petits écrans) */}
       <AnimatePresence>
         {showSearch && (
           <motion.div

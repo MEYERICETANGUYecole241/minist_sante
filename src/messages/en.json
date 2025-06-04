@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "ministry": "Ministry",
+    "users": "Users",
+    "press": "Press",
+    "news": "News",
+    "contact": "Contact"
+  }
+}

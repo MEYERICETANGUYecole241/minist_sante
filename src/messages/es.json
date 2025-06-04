@@ -1,0 +1,30 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "ministry": "Ministerio",
+    "users": "Usuarios",
+    "press": "Prensa",
+    "news": "Noticias",
+    "contact": "Contacto"
+  }
+}
+
+  "footer": {
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "sitemap": "Mapa del sitio"
+  },
+  "home": {
+    "welcome": "Bienvenido a nuestro sitio web",
+    "description": "Ofrecemos una variedad de servicios para satisfacer sus necesidades."
+  },
+  "contact": {
+    "formTitle": "Contáctenos",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "messageLabel": "Mensaje",
+    "submitButton": "Enviar"
+  }
+}
