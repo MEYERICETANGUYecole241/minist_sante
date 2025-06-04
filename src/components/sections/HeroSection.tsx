@@ -5,10 +5,6 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link'; // Make sure Link is imported if used
-<<<<<<< HEAD
-
-=======
->>>>>>> fb18356ed2b5000cb6a6c1dd7868c887e9e4347d
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +14,6 @@ export default function Hero() {
     '/Hero/bac.jpg',
     '/Hero/fac.jpg',
     '/Hero/vac.jpg',
-    '/Hero/fac1.jpg',
     '/Hero/vac1.jpg',
     '/Hero/vac3.jpg',
     '/Hero/vac4.jpg',
